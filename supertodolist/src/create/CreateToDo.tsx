@@ -25,7 +25,7 @@ export const CreateToDo: FunctionComponent = (): ReactElement => {
     }
 
     return <div>
-        <input name="task" type='text' onKeyDownCapture={onKeyCapture}
+        <input className="border-4 bg-primary-700 md:-space-x-1" name="task" type='text' onKeyDownCapture={onKeyCapture}
                required/>
         {tasks && tasks.length > 0 &&
         <ul id="items">

@@ -1,6 +1,7 @@
 import React from 'react';
 import {CreateToDo} from './create/CreateToDo';
 import './App.css';
+import './tailwind.output.css';
 
 function App() {
   return (
